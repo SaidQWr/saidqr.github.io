@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplicación de Tareas Pendientes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aplicación de Tareas Pendientes</h1>
+    <input type="text" name="tarea" placeholder="Agregar tarea" required>
+    <input type="date" name="fecha" placeholder="Fecha (opcional)">
+    <input type="time" name="hora" placeholder="Hora (opcional)">
+    <button type="button" onclick="agregarTarea()">Agregar</button>
+    <ul class="tareas">
+      <!-- Aquí se mostrarán las tareas pendientes -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
