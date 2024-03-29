@@ -1,0 +1,57 @@
+body {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 1080px; 
+  max-height: 400px;
+}
+
+#contenedor {
+  position: relative; /* Añadido para contener el botón "No" */
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#opciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#si {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+  position: absolute; /* Añadido para posicionar de forma independiente */
+  left: 10px; /* Ajusta la posición del botón "Sí" a la izquierda */
+  top: 268px;
+}
+
+#no {
+  background-color: #ffffff;
+  color: #000;
+  position: absolute; /* Añadido para posicionar de forma independiente */
+  right: 20px; /* Ajusta la posición del botón "No" a la derecha */
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
